@@ -9,7 +9,9 @@ const Positions = () => {
   
 
   useEffect(() =>{
-      axios.get("http://localhost:3002/addPositions").then((res)=> {
+    const API_BASE = process.env.REACT_APP_BACKEND_URL;
+
+      axios.get(`${API_BASE}/addHoldings`).then((res)=> {
         console.log(res.data)
         setAllPositions(res.data)
       })
