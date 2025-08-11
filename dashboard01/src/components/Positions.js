@@ -11,7 +11,7 @@ const Positions = () => {
   useEffect(() =>{
     const API_BASE = process.env.REACT_APP_BACKEND_URL;
 
-      axios.get(`${API_BASE}/allPositions`).then((res)=> {
+      axios.get(`${API_BASE}/addPositions`).then((res)=> {
         console.log(res.data)
         setAllPositions(res.data)
       })
