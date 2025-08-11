@@ -49,8 +49,8 @@ function Navbar() {
               </Link>
               </li>
               <li class="nav-item">
-              <a style={{textDecoration: "none"}} href="https://fin-plot.vercel.app/holdings">
-                My Dashboard
+              <a style={{textDecoration: "none", color: "black"}} href="https://fin-plot.vercel.app/holdings">
+                Kite
               </a>
             </li>
               <li class="nav-item dropdown">
