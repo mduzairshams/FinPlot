@@ -53,6 +53,11 @@ function Navbar() {
                 <i class="fa-solid fa-grip-lines"></i>
               </Link>
               </li>
+              <li class="nav-item">
+              <a href="https://fin-plot.vercel.app/holdings">
+                User Dashboard
+              </a>
+            </li>
           </ul>
             
           </form>
