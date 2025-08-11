@@ -27,7 +27,6 @@
 ## Inspiration
 FinPlot draws conceptual and design inspiration from modern stock trading platforms. This is an **independent project** built solely for educational and portfolio purposes and is **not affiliated with or endorsed by any trading company**.
 
-<img width="1916" height="909" alt="image" src="https://github.com/user-attachments/assets/8e25ee9b-e445-4669-a51e-28d158a679e8" />
 <img width="1919" height="895" alt="Screenshot 2025-08-12 014537" src="https://github.com/user-attachments/assets/62112ffa-8501-4c3d-ad8e-87606b4269bc" />
 <img width="1919" height="912" alt="Screenshot 2025-08-12 014547" src="https://github.com/user-attachments/assets/4783e8f8-616b-4d5e-a90a-5b994c8b221a" />
 <img width="1919" height="874" alt="Screenshot 2025-08-12 014610" src="https://github.com/user-attachments/assets/3e045a61-e2d0-48d4-bcf1-5c5527f9d41d" />
