@@ -8,7 +8,7 @@ function Universe() {
           className="mb-4"
           style={{ color: "#3c3c3c", fontWeight: "semibold" }}
         >
-          The Zerodha Universe
+          The FinPlot Universe
         </h3>
         <p className="mb-5" style={{ color: "#3c3c3c" }}>
           Extend your trading and investment experience even further with our
@@ -19,8 +19,8 @@ function Universe() {
           <div className="col text-center">
             <img
               style={{ width: "55%", marginBottom: "1rem" }}
-              src="media/images/zerodhaFundhouse.png"
-              alt="ZerodhaFundhouse"
+                          src="media/images/zerodhaFundhouse.png"
+            alt="FinPlotFundhouse"
             />
             <p style={{ color: "#6c6c6c", width: "80%", marginLeft: "2rem" }}>
               Our asset management venture <br /> that is creating simple and
@@ -32,7 +32,7 @@ function Universe() {
             <img
               style={{ width: "55%", marginBottom: "1rem" }}
               src="media/images/sensibullLogo.svg"
-              alt="ZerodhaFundhouse"
+              alt="FinPlotFundhouse"
             />
             <p style={{ color: "#6c6c6c", width: "80%", marginLeft: "2rem" }}>
               Options trading platform that lets you create strategies, analyze
@@ -45,7 +45,7 @@ function Universe() {
             <img
               style={{ width: "40%", marginBottom: "1rem" }}
               src="https://zerodha.com/static/images/partners/tijori.svg"
-              alt="ZerodhaFundhouse"
+              alt="FinPlotFundhouse"
             />
             <p style={{ color: "#6c6c6c", width: "80%", marginLeft: "2rem" }}>
               Investment research platform that offers detailed insights on
@@ -59,7 +59,7 @@ function Universe() {
             <img
               style={{ width: "45%", marginBottom: "1rem" }}
               src="media/images/streakLogo.png"
-              alt="ZerodhaFundhouse"
+              alt="FinPlotFundhouse"
             />
             <p style={{ color: "#6c6c6c", width: "80%", marginLeft: "2rem" }}>
               Systematic trading platform that allows you to create and backtest
@@ -71,7 +71,7 @@ function Universe() {
             <img
               style={{ width: "55%", marginBottom: "1rem" }}
               src="media/images/smallcaseLogo.png"
-              alt="ZerodhaFundhouse"
+              alt="FinPlotFundhouse"
             />
             <p style={{ color: "#6c6c6c", width: "80%", marginLeft: "2rem" }}>
               Thematic investing platform that helps you invest in diversified
@@ -83,7 +83,7 @@ function Universe() {
             <img
               style={{ width: "40%", marginBottom: "1rem" }}
               src="media/images/dittoLogo.png"
-              alt="ZerodhaFundhouse"
+              alt="FinPlotFundhouse"
             />
             <p style={{ color: "#6c6c6c", width: "80%", marginLeft: "2rem" }}>
               Personalized advice on life and health insurance. No spam and no
