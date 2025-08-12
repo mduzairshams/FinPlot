@@ -49,7 +49,7 @@ function Navbar() {
               </Link>
               </li>
               <li class="nav-item">
-              <a  class="nav-link active" style={{textDecoration: "none", color: "black"}} target="/" href="https://fin-plot.vercel.app/holdings">
+              <a  class="nav-link active" style={{textDecoration: "none", color: "black"}} target="/afsef" href="https://fin-plot.vercel.app/holdings">
                 Kite
               </a>
             </li>
