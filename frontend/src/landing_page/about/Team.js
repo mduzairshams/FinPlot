@@ -1,31 +1,64 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useScrollAnimation } from "../../hooks/useScrollAnimation";
 
 function Team() {
+  const titleRef = useScrollAnimation();
+  const founderRef = useScrollAnimation();
+  const teamRef = useScrollAnimation();
+
   return (
     <div className="container mt-5">
       <div className="row  p-5 mt-5 mb-5">
-        <h3 style={{ color: "#3c3c3c" }} className="mb-5 text-center">
+        <h3 
+          ref={titleRef}
+          style={{ 
+            color: "#3c3c3c",
+            fontSize: '2.5rem',
+            fontWeight: '600'
+          }} 
+          className="mb-5 text-center scroll-animate-up"
+        >
           People
         </h3>
         <div className="row mt-5 mb-5">
           <div className="col-1"></div>
-          <div className="col-5 text-center">
+          <div 
+            ref={founderRef}
+            className="col-5 text-center scroll-animate-left scroll-animate-delay-1"
+          >
             <img
               src="media/images/nithinKamath.jpg"
-              style={{ width: "295px", height: "295px", borderRadius: "50%" }}
+              style={{ 
+                width: "295px", 
+                height: "295px", 
+                borderRadius: "50%",
+                transition: 'all 0.3s ease',
+                cursor: 'pointer'
+              }}
               alt="NithinKamath"
+              onMouseEnter={(e) => {
+                e.target.style.transform = 'scale(1.05)';
+                e.target.style.boxShadow = '0 10px 25px rgba(0,0,0,0.2)';
+              }}
+              onMouseLeave={(e) => {
+                e.target.style.transform = 'scale(1)';
+                e.target.style.boxShadow = 'none';
+              }}
             />
             <p className="fs-3 mt-3" style={{ color: "#3c3c3c" }}>
               Nithin Kamath
             </p>
             <p style={{ color: "#6c6c6c" }}>Founder, CEO</p>
           </div>
-          <div className="col-5 mb-5">
+          <div 
+            ref={teamRef}
+            className="col-5 mb-5 scroll-animate-right scroll-animate-delay-2"
+          >
             <p style={{ color: "#3c3c3c" }}>
-              Nithin bootstrapped and founded Zerodha in 2010 to overcome the
+              Nithin bootstrapped and founded FinPlot in 2010 to overcome the
               hurdles he faced during his decade long stint as a trader. Today,
-              Zerodha has changed the landscape of the Indian broking industry.{" "}
+                              FinPlot has changed the landscape of the Indian broking industry.{" "}
               <br />
               <br />
               He is a member of the SEBI Secondary Market Advisory Committee
@@ -33,7 +66,21 @@ function Team() {
               <br />
               Playing basketball is his zen.
             </p>
-            <Link to="/" style={{ textDecoration: "none", color: "#3c3c3c" }}>
+            <Link to="/" style={{ 
+              textDecoration: "none", 
+              color: "#387ED1",
+              fontWeight: '500',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer'
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.color = '#2962ff';
+              e.target.style.textDecoration = 'underline';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.color = '#387ED1';
+              e.target.style.textDecoration = 'none';
+            }}>
               Connect on Homepage / TradingQnA / Twitter
             </Link>
           </div>
