@@ -19,7 +19,7 @@ function CreateTicket() {
                 </div>
                 <div className="col mt-5">
 
-                    <h5><i class="fa-solid fa-user"></i> Your Zerodha Account</h5> <br />
+                    <h5><i class="fa-solid fa-user"></i> Your FinPlot Account</h5> <br />
                     <p><a href="" style={{textDecoration:"none"}}>MTF</a></p>
                     <p><a href="" style={{textDecoration:"none"}}>Referral program</a></p>
                     <p><a href="" style={{textDecoration:"none"}}>Support portal</a></p>
@@ -28,7 +28,7 @@ function CreateTicket() {
 
                 </div>
                 <div className="col mt-5">
-                    <h5><i class="fa-solid fa-chart-simple"></i> Your Zerodha Account </h5> <br />
+                    <h5><i class="fa-solid fa-chart-simple"></i> Your FinPlot Account </h5> <br />
                     <p><a href="" style={{textDecoration:"none"}}>Market holidays</a></p>
                     <p><a href="" style={{textDecoration:"none"}}>Calculators</a></p>
                     <p><a href="" style={{textDecoration:"none"}}>Brokerage charges</a></p>
