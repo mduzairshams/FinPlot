@@ -6,7 +6,7 @@ function Navbar() {
     <nav class="navbar navbar-expand-lg sticky-top  pb-3 pt-3 border-bottom" style={{color: "#FFF"}}>
       <div class="container">
         <Link class="navbar-brand" to="/">
-          <h1 style={{color:"#387ED1", fontWeight:"bolder", fontFamily:"Verdana"}}>FinPlot</h1>
+          <h3 style={{color:"#387ED1", marginRight:"3rem", fontWeight:"bolder", fontFamily:"Verdana"}}>FinPlot</h3>
         </Link>
         <button
           class="navbar-toggler"
