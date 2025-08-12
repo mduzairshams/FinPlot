@@ -8,10 +8,10 @@ function Investment() {
         <h3 className="text-center" style={{color:"#3c3c3c"}}>Investment options with Zerodha demat account</h3>
         <br /><br />  
 
-        <div className="col-6 text-center">
+        <div className="col-6">
           <div className="row">
-
-            <div className="col-3">
+            
+            <div style={{marginLeft:"3rem"}} className="col-3">
               <img src="media/images/stocks-acop.svg" alt="Stocks" />
             </div>
 
@@ -22,7 +22,7 @@ function Investment() {
           </div>
 
           <div className="row">
-            <div className="col-3">
+            <div style={{marginLeft:"3rem"}} className="col-3">
               <img src="media/images/mf-acop.svg" alt="Stocks" />
             </div>
 
@@ -38,7 +38,7 @@ function Investment() {
 
 
           <div className="row">
-            <div className="col-3 text-center">
+            <div style={{marginLeft:"3rem"}} className="col-3 text-center">
               <img src="media/images/ipo-acop.svg" alt="Stocks" />
             </div>
 
@@ -49,7 +49,7 @@ function Investment() {
           </div>
 
           <div className="row">
-            <div className="col-3">
+            <div style={{marginLeft:"3rem"}} className="col-3">
               <img src="media/images/fo-acop.svg" alt="Stocks" />
             </div>
 
@@ -61,7 +61,7 @@ function Investment() {
           </div>
         </div>
       </div>
-      <button className=' p-2 fs-4  btn btn-primary mb-5' style={{ margin:"auto", width:"15%" , margin: "0 auto", fontWeight:"500" }}>Explore Investments </button>
+      <button className=' p-2 fs-4  btn btn-primary mb-5' style={{ marginLeft:"50%", width:"15%" , margin: "0 auto", fontWeight:"500" }}>Explore Investments </button>
     </div>
   );
 }
