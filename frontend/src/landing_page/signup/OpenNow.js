@@ -4,7 +4,7 @@ import React from 'react';
 function OpenNow() {
     return ( 
         <div className="container mb-5 mt-5">
-            <div className="row mt-5 mb-5 text-center">
+            <div className="row mt-5 mb-5">
                 <div className="col-6 text-center">
                     <img style={{marginLeft: "3rem"}} src="media/images/account_open.svg" alt="App_overview" />
 
