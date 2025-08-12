@@ -4,6 +4,8 @@ function Investment() {
   return (
     <div className="container mt-5">
       <div className="row mt-5">
+        <h3 style={{color:"#3c3c3c"}}>Investment options with Zerodha demat account</h3>
+
         <div className="col-6 text-center">
           <div className="row">
             <div className="col-3 text-center">
