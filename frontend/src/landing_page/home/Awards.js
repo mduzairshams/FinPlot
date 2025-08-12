@@ -4,12 +4,12 @@ function Awards() {
     return ( 
         <div className="container p-5 mb-5">
             <div className="row ">
-                <div className="col-6   ">
+                <div className="col-6">
                     <img src="media/images/largestBroker.svg" className="" alt="" />
                 </div>
                 <div className="col-6 p-2">
                     <h1>Largest stock broker in India</h1>
-                    <p style={{width: "80%"}}>2+ million Zerodha clients  contribute over a 15% of retail order volumes in India daily by trading  and investing in: </p>
+                    <p style={{width: "80%"}}>2+ million FinPlot clients  contribute over a 15% of retail order volumes in India daily by trading  and investing in: </p>
                     <div className="row mt-5">
                             <div className="col-6">
                         <ul>
