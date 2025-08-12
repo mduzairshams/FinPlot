@@ -1,0 +1,34 @@
+import React from 'react';
+import "../"
+
+function OpenNow() {
+    return ( 
+        <div className="container">
+            <div className="row">
+                <div className="col-6">
+                    <img src="media/images/account_open.svg" alt="App_overview" />
+
+                </div>
+
+                <div className="col-6">
+                    <h3 style={{color:"#3c3c3c"}}>Signup now</h3>
+                    <h5 style={{color:"#878787ff"}}>Or track your existing application</h5>
+                    <div className="col-2">
+                        <img src="media/images/india-flag.svg" alt="Indian_Flag" />
+                        +91
+
+                    </div>
+                    <div className="col-4">
+                        <input type="number" placeholder='Enter your mobile number' />
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        
+     );
+}
+
+export default OpenNow;

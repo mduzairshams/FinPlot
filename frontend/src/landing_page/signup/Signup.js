@@ -1,8 +1,18 @@
 import React from 'react';
+import OpenAccount from "../OpenAccount"
+import Hero from "./Hero"
+import OpenNow from "./OpenNow"
+import Investment from "./Investment"
 
 function Signup() {
     return ( 
-        <h1>Signup</h1>
+        <>
+        <Hero/>
+        <OpenNow/>
+        <Investment/>
+        <OpenAccount/>        
+        </>
+        
      );
 }
 
