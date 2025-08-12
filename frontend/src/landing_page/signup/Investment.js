@@ -7,10 +7,10 @@ function Investment() {
         <h3 className="text-center" style={{color:"#3c3c3c"}}>Investment options with Zerodha demat account</h3>
         <br /><br />  
 
-        <div className="col-6 ">
+        <div className="col-6 text-center">
           <div className="row">
 
-            <div className="col-3 ">
+            <div className="col-3">
               <img src="media/images/stocks-acop.svg" alt="Stocks" />
             </div>
 
@@ -25,7 +25,7 @@ function Investment() {
               <img src="media/images/mf-acop.svg" alt="Stocks" />
             </div>
 
-            <div className="col-3 ">
+            <div className="col-3">
                 <h3 style={{color:"#3c3c3c"}}>IPO</h3>
                 <h4 className='mt-3 fs-5 text-muted' style={{color:"#3c3c3c", fontWeight:"normal"}}>Apply to the latest IPOs instantly via UPI</h4>
             </div>
@@ -33,11 +33,11 @@ function Investment() {
         </div>
 
 
-        <div className="col-6">
+        <div className="col-6 text-center">
 
 
           <div className="row">
-            <div className="col-3 ">
+            <div className="col-3 text-center">
               <img src="media/images/ipo-acop.svg" alt="Stocks" />
             </div>
 
